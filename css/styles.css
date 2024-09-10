@@ -28,6 +28,32 @@ img {
         padding: 0;
 }
 
+.logo {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0px;
+        width: 115px;
+
+        margin-top: 24px;
+        margin-left: 156px;
+        margin-bottom: 24px;
+        margin-right: 76px;
+}
+
+.logo-part-two {
+        color: #2e2f42;
+}
+
 .header-div .nav-ul {
         display: flex;
         flex-direction: row;
@@ -361,7 +387,7 @@ h2 {
         background-color: #f4f4fd;
 }
 
-.portfolio-card-div-one {
+.portfolio-card-divs-one {
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -378,14 +404,17 @@ h2 {
         margin-left: 156px;
         margin-right: 24px;
         margin-bottom: 48px;
+        padding: 0;
 }
 
 .portfolio-letters-one {
-        display: flex;
+        display: block;
         margin-top: 32px;
         margin-left: 16px;
         margin-right: 226px;
         margin-bottom: 32px;
+
+        width: 118px;
 }
 
 .portfolio-img-one {
@@ -394,8 +423,181 @@ h2 {
         margin-top: 72px;
 }
 
+.portfolio-card-divs-two {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        
+        border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        padding: 32px 16px;
+        width: 360px;
+        
+        margin-top: 0;
+        margin-right: 24px;
+        margin-bottom: 48px;
+        padding: 0;
+}
+
+.portfolio-letters-two {
+        display: block;
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 226px;
+        margin-bottom: 32px;
+        
+        width: 180px;
+}
+
+.portfolio-img-two {
+        margin-right: 24px;
+        margin-top: 72px;
+}
+
+.portfolio-card-divs-three {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        
+        border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        padding: 32px 16px;
+        width: 360px;
+        
+        margin-top: 0;
+        margin-right: 156px;
+        margin-bottom: 48px;
+        padding: 0;
+}
+
+.portfolio-letters-three {
+        display: block;
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 226px;
+        margin-bottom: 32px;
+        
+        width: 143px;
+}
+
+.portfolio-img-three {
+        margin-right: 156px;
+        margin-top: 72px;
+}
+
+.portfolio-card-divs-four {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        
+        border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        padding: 32px 16px;
+        width: 360px;
+        
+        margin-top: 0;
+        margin-left: 156px;
+        margin-right: 24px;
+        margin-bottom: 120px;
+        padding: 0;
+}
+
+.portfolio-letters-four {
+        display: block;
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 226px;
+        margin-bottom: 32px;
+
+        width: 113px;
+}
+
+.portfolio-img-four {
+        margin-right: 24px;
+        margin-left: 156px;
+}
+
+.portfolio-card-divs-five {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        
+        border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        padding: 32px 16px;
+        width: 360px;
+        height: 120px;
+        
+        margin-top: 0;
+        margin-right: 24px;
+        margin-bottom: 120px;
+        padding: 0;
+}
+
+.portfolio-letters-five {
+        display: block;
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 226px;
+        margin-bottom: 32px;
+
+        width: 200px;
+}
+
+.portfolio-img-five {
+        margin-right: 24px;
+}
+
+.portfolio-card-divs-six {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        
+        border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        padding: 32px 16px;
+        width: 360px;
+        height: 120px;
+        
+        margin-top: 0;
+        margin-right: 156px;
+        margin-bottom: 120px;
+        padding: 0;
+}
+
+.portfolio-letters-six {
+        display: block;
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 226px;
+        margin-bottom: 32px;
+
+        width: 142px;
+}
+
+.portfolio-img-five {
+        margin-right: 156px;
+}
+
 .footer {
         background-color: #2e2f42;
+
+        height: 312px;
 }
 
 .footer .footer-text {
@@ -404,6 +606,12 @@ h2 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+
+        width: 264px;
+
+        margin-left: 156px;
+        margin-bottom: 100px;
+        margin-right: 1020px;
 }
 
 .portfolio-list .portfolio-title {
@@ -422,7 +630,7 @@ h2 {
         color: #434455;
 }
 
-.logo {
+.logo-two {
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -438,12 +646,13 @@ h2 {
         gap: 0px;
         width: 115px;
 
-        padding-top: 24px;
-        padding-left: 156px;
-        margin-right: 76px;
+        margin-top: 100px;
+        margin-left: 156px;
+        margin-bottom: 16px;
+        margin-right: 1169px;
 }
 
-.logo-part-two {
+.logo-part-two-two {
         color: #2e2f42;
 }
 
@@ -490,8 +699,4 @@ ul, ol {
         list-style-type: none;
         margin: 0;
 
-}
-
-button {
-        cursor: pointer;
 }
