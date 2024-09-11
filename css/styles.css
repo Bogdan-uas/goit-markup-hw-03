@@ -184,7 +184,7 @@ img {
         margin-top: 188px;
         margin-left: 472px;
 
-        min-width: 496px;
+        max-width: 496px;
 }
 
 .button {
