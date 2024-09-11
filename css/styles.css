@@ -28,6 +28,10 @@ img {
         padding: 0;
 }
 
+.header {
+        border-bottom: 1px solid #e7e9fc;
+}
+
 .logo {
         font-weight: 700;
         font-size: 18px;
@@ -45,13 +49,26 @@ img {
         width: 115px;
 
         margin-top: 24px;
-        margin-left: 156px;
         margin-bottom: 24px;
-        margin-right: 76px;
 }
 
 .logo-part-two {
         color: #2e2f42;
+}
+
+.container {
+        display: flex;
+        width: 1158px;
+        padding-right: 15px;
+}
+
+.header-nav {
+        display: flex;
+        align-items: center;
+}
+
+.nav-ul:nth-child(:last-child) {
+        margin-right: 0;
 }
 
 .header-div .nav-ul {
@@ -59,7 +76,10 @@ img {
         flex-direction: row;
         gap: 40px;
         margin-top: 24px;
+        margin-bottom: 24px;
 }
+
+
 
 .nav-text {
         font-weight: 500;
@@ -67,6 +87,34 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+
+.contacts .nav-adress {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+
+        display: flex; 
+        gap: 40px;
+}
+
+.nav-adress-one {
+        margin-left: 332px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+}
+
+.nav-adress-two {
+        margin-left: 400px;
+        margin-right: 156px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 151px;
 }
 
 .mail-div {
@@ -88,14 +136,6 @@ img {
 .nav-text:hover,
 .nav-text:focus {
         color: #404bbf;
-}
-
-.nav-adress {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
 }
 
 .nav-adress:hover,
@@ -654,10 +694,6 @@ h2 {
 
 .logo-part-two-two {
         color: #2e2f42;
-}
-
-.contacts {
-        font-style: normal;
 }
 
 .section-one {
