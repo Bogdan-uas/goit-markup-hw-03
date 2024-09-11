@@ -22,10 +22,14 @@ img {
 }
 
 .container {
-        max-width: 1440px;
+        display: flex;
         margin-left: auto;
         margin-right: auto;
         padding: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 1158px;
+        gap: 40px;
 }
 
 .header {
@@ -50,16 +54,11 @@ img {
 
         margin-top: 24px;
         margin-bottom: 24px;
+        margin-left: 76px;
 }
 
 .logo-part-two {
         color: #2e2f42;
-}
-
-.container {
-        display: flex;
-        width: 1158px;
-        padding-right: 15px;
 }
 
 .header-nav {
@@ -79,8 +78,6 @@ img {
         margin-bottom: 24px;
 }
 
-
-
 .nav-text {
         font-weight: 500;
         font-size: 16px;
@@ -91,6 +88,26 @@ img {
         padding-bottom: 24px;
 }
 
+.nav-text-one {
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+
+.nav-text-two {
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+
+.nav-text-three {
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+
+.contacts {
+        display: flex;
+        gap: 40px;
+}
+
 .contacts .nav-adress {
         font-style: normal;
         font-weight: 400;
@@ -98,9 +115,6 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-
-        display: flex; 
-        gap: 40px;
 }
 
 .nav-adress-one {
