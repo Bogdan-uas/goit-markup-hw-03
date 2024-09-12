@@ -287,7 +287,7 @@ h2 {
         gap: 24px;
 
         margin-top: 120px;
-        margin-bottom: 120px;
+        margin-bottom: 120px
 }
 
 .studio-li-one {
@@ -354,7 +354,6 @@ h2 {
         height: 380px;
 
         margin-top: 72px;
-        margin-left: 156px;
         margin-bottom: 120px;
 
 }
@@ -366,7 +365,23 @@ h2 {
         flex-direction: column;
         gap: 8px;
 
-        margin-top: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.team-card-one {
+        flex-basis: calc((100% - 72px) / 4);
+
+        border-radius: 0px 0px 4px 4px;
+}
+
+.team-title-one {
+        text-align: center;
+        margin-bottom: 8px;
+}
+
+.team-text-one {
+        text-align: center;
 }
 
 .team-card-div-two {
@@ -384,7 +399,6 @@ h2 {
         width: 264px;
         height: 380px;
 
-        margin-right: 32px;
         margin-top: 72px;
         margin-bottom: 120px;
 }
@@ -396,7 +410,23 @@ h2 {
         flex-direction: column;
         gap: 8px;
         
-        margin-top: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.team-card-two {
+        flex-basis: calc((100% - 72px) / 4);
+
+        border-radius: 0px 0px 4px 4px;
+}
+
+.team-title-two {
+        text-align: center;
+        margin-bottom: 8px;
+}
+
+.team-text-two {
+        text-align: center;
 }
 
 .team-card-div-three {
@@ -416,7 +446,6 @@ h2 {
 
         margin-top: 72px;
         margin-bottom: 120px;
-        margin-right: 32px;
 }
 
 .team-letters-three {
@@ -426,7 +455,23 @@ h2 {
         flex-direction: column;
         gap: 8px;
         
-        margin-top: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.team-card-three {
+        flex-basis: calc((100% - 72px) / 4);
+
+        border-radius: 0px 0px 4px 4px;
+}
+
+.team-title-three {
+        text-align: center;
+        margin-bottom: 8px;
+}
+
+.team-text-three {
+        text-align: center;
 }
 
 .team-card-div-four {
@@ -446,7 +491,6 @@ h2 {
 
         margin-top: 72px;
         margin-bottom: 120px;
-        margin-right: 156px;
 }
 
 .team-letters-four {
@@ -456,7 +500,28 @@ h2 {
         flex-direction: column;
         gap: 8px;
         
-        margin-top: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.team-card-four {
+        flex-basis: calc((100% - 72px) / 4);
+
+        border-radius: 0px 0px 4px 4px;
+}
+
+.team-title-four {
+        text-align: center;
+        margin-bottom: 8px;
+}
+
+.team-text-four {
+        text-align: center;
+}
+
+.team-list {
+        display: flex;
+        gap: 24px;
 }
 
 .team-list .team-title {
@@ -475,8 +540,11 @@ h2 {
         color: #434455;
 }
 
-.team {
+.team-section {
         background-color: #f4f4fd;
+
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .portfolio-card-divs-one {
@@ -753,7 +821,8 @@ h2 {
         background-color: #f4f4fd;
         text-align: center;
 
-        margin-top: 120px;
+        margin-bottom: 72px;
+        
 }
 
 .portfolio-main-title {
