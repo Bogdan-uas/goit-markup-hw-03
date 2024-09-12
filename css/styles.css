@@ -223,6 +223,11 @@ h2 {
         color: #2e2f42;
 }
 
+.section-two {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
 .our-studio {
         position: absolute;
         width: 1px;
@@ -306,6 +311,44 @@ h2 {
 
         width: 264px;
         height: 104px;
+}
+
+.studio-list {
+        display: flex;
+        gap: 24px;
+
+}
+
+.studio-li-one {
+        width: calc((100% - 72px) / 4);
+}
+
+.studio-ben-one {
+        margin-bottom: 8px;
+}
+
+.studio-li-two {
+        width: calc((100% - 72px) / 4);
+}
+
+.studio-ben-two {
+        margin-bottom: 8px;
+}
+
+.studio-li-three {
+        width: calc((100% - 72px) / 4);
+}
+
+.studio-ben-three {
+        margin-bottom: 8px;
+}
+
+.studio-li-four {
+        width: calc((100% - 72px) / 4);
+}
+
+.studio-ben-four {
+        margin-bottom: 8px;
 }
 
 .studio-list .studio-ben {
@@ -721,9 +764,6 @@ h2 {
         font-family: "Raleway", sans-serif;
         
         display: inline-block;
-        align-items: center;
-        flex-direction: row;
-        gap: 0px;
         width: 115px;
 
         margin-top: 100px;
