@@ -22,14 +22,12 @@ img {
 }
 
 .container {
-        display: flex;
         margin-left: auto;
         margin-right: auto;
         padding: 0;
         padding-right: 15px;
         padding-left: 15px;
         width: 1158px;
-        gap: 40px;
 }
 
 .header {
