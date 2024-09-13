@@ -25,8 +25,6 @@ img {
         margin-left: auto;
         margin-right: auto;
         padding: 0;
-        padding-right: 15px;
-        padding-left: 15px;
         width: 1158px;
 }
 
@@ -222,8 +220,10 @@ h2 {
 }
 
 .section-two {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        margin-top: 120px;
+        margin-bottom: 120px;
+        margin-left: 156px;
+        margin-right: 156px;
 }
 
 .our-studio {
@@ -284,8 +284,8 @@ h2 {
         display: flex;
         gap: 24px;
 
-        margin-top: 120px;
-        margin-bottom: 120px
+        padding: 0;
+        padding-inline-start: 0;
 }
 
 .studio-li-one {
@@ -351,9 +351,6 @@ h2 {
         width: 264px;
         height: 380px;
 
-        margin-top: 72px;
-        margin-bottom: 120px;
-
 }
 
 .team-letters-one {
@@ -396,9 +393,6 @@ h2 {
         padding: 0px 0px 32px 0px;
         width: 264px;
         height: 380px;
-
-        margin-top: 72px;
-        margin-bottom: 120px;
 }
 
 .team-letters-two {
@@ -441,9 +435,6 @@ h2 {
         padding: 0px 0px 32px 0px;
         width: 264px;
         height: 380px;
-
-        margin-top: 72px;
-        margin-bottom: 120px;
 }
 
 .team-letters-three {
@@ -486,9 +477,6 @@ h2 {
         padding: 0px 0px 32px 0px;
         width: 264px;
         height: 380px;
-
-        margin-top: 72px;
-        margin-bottom: 120px;
 }
 
 .team-letters-four {
@@ -896,5 +884,5 @@ ul, ol {
         list-style: none;
         list-style-type: none;
         margin: 0;
-
+        padding: 0;
 }
