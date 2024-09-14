@@ -153,10 +153,6 @@ ol {
         margin-bottom: 24px;
 }
 
-.section-box-one {
-        width: 1440px;
-}
-
 .nav-link:hover,
 .nav-link:focus {
         color: #404bbf;
@@ -206,7 +202,6 @@ ol {
         margin-left: auto;
         margin-right: auto;
         margin-top: 48px;
-        margin-bottom: 188px;
         height: 56px;
 }
 
@@ -225,10 +220,8 @@ h2 {
 }
 
 .studio-section {
-        margin-top: 120px;
-        margin-bottom: 120px;
-        margin-left: 156px;
-        margin-right: 156px;
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .studio-main-title {
@@ -286,11 +279,11 @@ h2 {
 }
 
 .studio-list {
-        display: flex;
+        display: flexgti;
+        align-items: center;
         gap: 24px;
 
         padding: 0;
-        padding-inline-start: 0;
 }
 
 .studio-item-one {
