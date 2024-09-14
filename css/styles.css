@@ -9,11 +9,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-        margin: 0;
-}
-
-p {
+h6,
+p  {
         margin: 0;
 }
 
@@ -21,18 +18,30 @@ img {
         display: block;
 }
 
-.container {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        width: 1158px;
+a {
+        text-decoration: none;
+        color: inherit;
 }
 
-.header {
+ul,
+ol {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.container {
+        margin: 0 auto;
+        padding: 0 15px;
+        max-width: 1158px;
+}
+
+.page-header {
         border-bottom: 1px solid #e7e9fc;
 }
 
-.logo {
+.header-logo {
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -48,9 +57,8 @@ img {
         gap: 0px;
         width: 115px;
 
-        margin-top: 24px;
-        margin-bottom: 24px;
-        margin-left: 76px;
+        padding: 24px 0;
+        margin-right: 76px;
 }
 
 .logo-part-two {
@@ -62,11 +70,12 @@ img {
         align-items: center;
 }
 
-.nav-list:nth-child(:last-child) {
-        margin-right: 0;
+.header-box {
+        display: flex;
+        align-items: center;
 }
 
-.header-box .nav-list {
+.nav-list {
         display: flex;
         flex-direction: row;
         gap: 40px;
@@ -74,18 +83,24 @@ img {
         margin-bottom: 24px;
 }
 
+.contacts-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+}
+
 .nav-box {
         margin-left: 76px;
 }
 
 .nav-link {
+        display: block;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding: 24px 0;
 }
 
 .nav-link-one {
@@ -104,17 +119,19 @@ img {
 }
 
 .contacts {
-        display: flex;
-        gap: 40px;
+        font-style: normal;
+        margin-left: auto;
 }
 
-.contacts .nav-contacts {
+.nav-contacts {
+        display: block;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding: 24px 0;
 }
 
 .adress-box .nav-contacts-one {
@@ -134,18 +151,6 @@ img {
         margin-right: 156px;
         margin-top: 24px;
         margin-bottom: 24px;
-}
-
-.mail {
-        margin-top: 24px;
-        margin-right: 40px;
-        margin-left: 332px;
-}
-
-.tel {
-        margin-top: 24px;
-        margin-right: 156px;
-        margin-left: 40px;
 }
 
 .section-box-one {
@@ -177,8 +182,9 @@ img {
         color: #fff;
         background-color: #2e2f42;
 
-        margin-top: 188px;
-        margin-left: 472px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 118px;
 
         max-width: 496px;
 }
@@ -198,8 +204,8 @@ img {
         min-width: 169px;
         border-radius: 4px;
         border: 0;
-        margin-left: 636px;
-        margin-left: 635px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 48px;
         margin-bottom: 188px;
         height: 56px;
@@ -334,6 +340,19 @@ h2 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.team-main-title {
+        line-height: 1.11;
+        text-transform: capitalize;
+        background-color: #f4f4fd;
+        text-align: center;
+
+        margin-bottom: 72px;
+}
+
+.team-list .team-card {
+        background-color: #FFFFFF;
 }
 
 .team-card-box-one {
@@ -809,15 +828,12 @@ h2 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        font-family: "Roboto", sans-serif;
 
         width: 264px;
-
-        margin-left: 156px;
-        margin-bottom: 100px;
-        margin-right: 1020px;
 }
 
-.logo-two {
+.footer-logo {
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -829,42 +845,14 @@ h2 {
         display: inline-block;
         width: 115px;
 
-        margin-top: 100px;
-        margin-left: 156px;
         margin-bottom: 16px;
-        margin-right: 1169px;
-}
-
-.logo-part-two-two {
-        color: #2e2f42;
-}
-
-.team-main-title {
-        line-height: 1.11;
-        text-transform: capitalize;
-        background-color: #f4f4fd;
-        text-align: center;
-
-        margin-bottom: 72px;
-
 }
 
 .logo-part-two-two {
         color: #f4f4fd;
 }
 
-.team-list .team-card {
-        background-color: #FFFFFF;
-}
-
-a {
-        text-decoration: none;
-        color: inherit;
-}
-
-ul, ol {
-        list-style: none;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+.footer-box {
+        margin-left: 156px;
+        margin-right: 1020px;
 }
