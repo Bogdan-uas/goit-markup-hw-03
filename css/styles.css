@@ -279,7 +279,7 @@ h2 {
 }
 
 .studio-list {
-        display: flexgti;
+        display: flex;
         align-items: center;
         gap: 24px;
 
