@@ -61,7 +61,7 @@ ol {
         margin-right: 76px;
 }
 
-.logo-part-two {
+.header-logo .logo-part-two {
         color: #2e2f42;
 }
 
@@ -79,8 +79,6 @@ ol {
         display: flex;
         flex-direction: row;
         gap: 40px;
-        margin-top: 24px;
-        margin-bottom: 24px;
 }
 
 .contacts-list {
@@ -125,13 +123,11 @@ ol {
 
 .nav-contacts {
         display: block;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding: 24px 0;
 }
 
 .adress-box .nav-contacts-one {
@@ -143,14 +139,11 @@ ol {
 }
 
 .nav-contacts-one {
-        margin-top: 24px;
-        margin-bottom: 24px;
+        padding: 0;
 }
 
 .nav-contacs-two {
         margin-right: 156px;
-        margin-top: 24px;
-        margin-bottom: 24px;
 }
 
 .nav-link:hover,
@@ -840,11 +833,11 @@ h2 {
         margin-bottom: 16px;
 }
 
-.logo-part-two-two {
+.footer-logo .logo-part-two-two {
         color: #f4f4fd;
 }
 
 .footer-box {
-        margin-left: 156px;
+        margin-left: 372.5px;
         margin-right: 1020px;
 }
