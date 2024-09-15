@@ -226,35 +226,11 @@ h2 {
         padding: 0;
 }
 
-.studio-item-one {
+.studio-item {
         flex-basis: calc((100% - 72px) / 4);
 }
 
-.studio-benefit-one {
-        margin-bottom: 8px;
-}
-
-.studio-item-two {
-        flex-basis: calc((100% - 72px) / 4);
-}
-
-.studio-benefit-two {
-        margin-bottom: 8px;
-}
-
-.studio-item-three {
-        flex-basis: calc((100% - 72px) / 4);
-}
-
-.studio-benefit-three {
-        margin-bottom: 8px;
-}
-
-.studio-item-four {
-        flex-basis: calc((100% - 72px) / 4);
-}
-
-.studio-benefit-four {
+.studio-benefit {
         margin-bottom: 8px;
 }
 
