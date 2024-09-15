@@ -87,10 +87,6 @@ ol {
         gap: 40px;
 }
 
-.nav-box {
-        margin-left: 76px;
-}
-
 .nav-link {
         display: block;
         font-weight: 500;
@@ -98,7 +94,6 @@ ol {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding: 24px 0;
 }
 
 .nav-link-one {
@@ -128,14 +123,6 @@ ol {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-}
-
-.adress-box .nav-contacts-one {
-        order: 1;
-}
-
-.adress-box .nav-contacts-two {
-        order: 0;
 }
 
 .nav-contacts-one {
